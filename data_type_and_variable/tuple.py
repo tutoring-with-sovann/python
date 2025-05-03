@@ -1,7 +1,7 @@
 # Constructing a tuple
-colors = ("red", "blue", "green")
+("red", "blue", "green")
 # Or you can write
-coords = (10, 20)
+(10, 20)
 
 # Q1. How do you access any element inside the tuple?
 # A1. You use an index to get that element.
@@ -15,5 +15,4 @@ coords = (10, 20)
 # To access the 2nd element, use index 1 (sequence position - 1).
 
 # E.g., Below shows accessing the 2nd element. Instead of colors[2], we use colors[1].
-second_color = colors[1]
-print(second_color)  # Output: blue
+print(("red", "blue", "green")[1])  # Output: blue

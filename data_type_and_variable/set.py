@@ -1,7 +1,7 @@
 # Constructing a set
-colors = {"red", "blue", "green"}
+{"red", "blue", "green"}
 # Or you can write
-numbers = set([1, 2, 3])
+set([1, 2, 3])
 
 # Q1. How do you check if an item is in the set?
 # A1. You use the 'in' keyword to test membership.
@@ -13,5 +13,4 @@ numbers = set([1, 2, 3])
 # To check if "blue" is in the set, use the 'in' keyword.
 
 # E.g., Below shows checking if "blue" is in the set.
-is_blue_present = "blue" in colors
-print(is_blue_present)  # Output: True
+print("blue" in {"red", "blue", "green"}) # Output: True
