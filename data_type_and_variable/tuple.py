@@ -1,7 +1,7 @@
 # Constructing a tuple
 ("red", "blue", "green")
 # Or you can write
-(10, 20)
+(10, 20.1)
 
 # Q1. How do you access any element inside the tuple?
 # A1. You use an index to get that element.

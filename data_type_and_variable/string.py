@@ -16,6 +16,6 @@
 # So if we I want to access the 2nd character, I have to access character sequence - 1 as the index.
 
 # E.g. Below shows we want to access the 2nd character, but instead of writing name[2], we do name[1] for the index access.
-print("John"[2]);
+print("John"[1]);
 
 
