@@ -1,5 +1,5 @@
 # Constructing a list
-["apple", "banana", "orange"]
+list = ["apple", "banana", "orange"]
 
 # Q1. How do you access any element inside the list?
 # A1. You use an index to get that element.

@@ -15,12 +15,12 @@
 # Example:
 a = 5
 b = 3
-result = a + b
+result = (a + b)
 print("Addition:", result)  # Output: Addition: 8
 # Example with strings:
 str1 = "Hello"
 str2 = "World"
-result_str = str1 + " " + str2
+result_str = (str1 + " " + str2)
 print("String Concatenation:", result_str)  # Output: String Concatenation: Hello World
 
 # Example with lists:
@@ -28,6 +28,25 @@ list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 result_list = list1 + list2
 print("List Concatenation:", result_list)  # Output: List Concatenation: [1, 2, 3, 4, 5, 6]
+
+list3 = [
+    {
+        'python': "a programming language",
+        'age_of_python': "more than 20 years"
+    },
+    234,
+    True,
+    (40, 50, 70, 39),
+    {
+        'play_station': "gaming console"
+    }
+]
+
+list4 = [123, 456, "hh"]
+
+result_list2 = list4 + list3
+
+print(result_list2)
 
 # 2. Subtraction (-)
 # The subtraction operator (-) is used to subtract one number from another.
@@ -146,4 +165,4 @@ print("Floor Division with float numbers and negative result:", result)  # Outpu
 a = 10.5
 b = 0.0
 result = a // b
-    
+

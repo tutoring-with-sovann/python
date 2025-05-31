@@ -5,7 +5,7 @@ a = 5
 # a is a variable
 # 5 is a value
 
-# a = 5 meaning assign ariable a to have value of 5
+# a = 5 meaning assign variable a to have value of 5
 
 # Later on when you want to use the value of a, you can just refer to a
 print(a)  # Output: 5
@@ -13,7 +13,7 @@ print(a)  # Output: 5
 a = 10
 print(a)  # Output: 10
 # You can also assign a value to multiple variables at once
-a, b = 20, 30
+a, b, c = 20, 30, "jgjg"
 print(a)  # Output: 20
 print(b)  # Output: 30
 # You can also assign the same value to multiple variables

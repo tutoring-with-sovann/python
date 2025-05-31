@@ -1,5 +1,5 @@
 # Constructing a set
-{"red", "blue", "green"}
+colors = {"red", "blue", "green"}
 # Or you can write
 set([1, 2, 3])
 
