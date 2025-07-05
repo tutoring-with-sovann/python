@@ -1,6 +1,6 @@
 # Scenario: You’re packing snacks for a trip, but you skip any snacks that are expired.
 
-snacks = ["chips", "expired yogurt", "apple", "expired candy", "banana"]
+snacks =  ["chips", "expired yogurt", "apple", "expired candy", "banana"]
 index = 0
 while index < len(snacks):
     if "expired" in snacks[index]:
