@@ -1,4 +1,4 @@
-def printExample(value: string) -> None:
+def printExample(value) -> None:
   # Call underlying system to print something to the output.
   # Question: Can you assign a variable to a return value of print?
   # Yes, if both of them are None.
@@ -7,7 +7,7 @@ def printExample(value: string) -> None:
 # Let's look at this 'p' variable. 
 # When I wrote 'p: None', that means 'p' has the data type of 'None' which is nothing.
 # It doesn't hold any actual value.
-p: None = printExample('This is a string');
+p: float = printExample('This is a string');
 
 
 nativePrint: None = print("Halo")
