@@ -1,0 +1,47 @@
+[
+    {
+        "question": "What does OOP stand for in Python?",
+        "options": [
+            {"label": "A", "text": "Object-Oriented Programming"},
+            {"label": "B", "text": "Operational Object Processing"},
+            {"label": "C", "text": "Oriented Operational Programming"}
+        ],
+        "correctAnswerIndex": 0
+    },
+    {
+        "question": "What is the purpose of the __init__() method in a Python class?",
+        "options": [
+            {"label": "A", "text": "To define the class structure"},
+            {"label": "B", "text": "To initialize object properties when the object is created"},
+            {"label": "C", "text": "To delete an object"}
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What does the __str__() method do in a Python class?",
+        "options": [
+            {"label": "A", "text": "It initializes the class"},
+            {"label": "B", "text": "It controls the string representation of the object"},
+            {"label": "C", "text": "It deletes the object"}
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What is a class in Python?",
+        "options": [
+            {"label": "A", "text": "A variable that stores data"},
+            {"label": "B", "text": "A blueprint for creating objects"},
+            {"label": "C", "text": "A function that executes code"}
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What does the DRY principle stand for in OOP?",
+        "options": [
+            {"label": "A", "text": "Do Repeat Yourself"},
+            {"label": "B", "text": "Don't Repeat Yourself"},
+            {"label": "C", "text": "Define Repeated Yield"}
+        ],
+        "correctAnswerIndex": 1
+    }
+]

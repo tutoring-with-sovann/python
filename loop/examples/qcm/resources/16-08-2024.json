@@ -1,0 +1,74 @@
+[
+    {
+        "question": "What is the purpose of the 'self' parameter in a class method?",
+        "options": [
+            {"label": "A", "text": "It is a required keyword that must always be named 'self'."},
+            {"label": "B", "text": "It refers to the current instance of the class, used to access its properties and methods."},
+            {"label": "C", "text": "It refers to the parent class."}
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How do you modify the 'age' property of an object p1 to 40?",
+        "options": [
+            {"label": "A", "text": "p1.modify(age, 40)"},
+            {"label": "B", "text": "set(p1.age, 40)"},
+            {"label": "C", "text": "p1.age = 40"}
+        ],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "What is the term for a class that inherits from another class?",
+        "options": [
+            {"label": "A", "text": "Parent class"},
+            {"label": "B", "text": "Base class"},
+            {"label": "C", "text": "Child class"}
+        ],
+        "correctAnswerIndex": 2
+    },
+    {
+        "question": "How do you correctly define a 'Student' class that inherits from a 'Person' class?",
+        "options": [
+            {"label": "A", "text": "class Student inherits Person:"},
+            {"label": "B", "text": "class Student(Person):"},
+            {"label": "C", "text": "class Person(Student):"}
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What happens if you add an __init__() function to a child class without calling the parent's __init__()?",
+        "options": [
+            {"label": "A", "text": "The parent's __init__() is called automatically."},
+            {"label": "B", "text": "The child class will no longer inherit the parent's __init__() function (it is overridden)."},
+            {"label": "C", "text": "It will cause a syntax error."}
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "What does the super() function do in a child class?",
+        "options": [
+            {"label": "A", "text": "It prevents inheritance."},
+            {"label": "B", "text": "It makes the child class inherit all the methods and properties from its parent."},
+            {"label": "C", "text": "It deletes the parent object."}
+        ],
+        "correctAnswerIndex": 1
+    },
+    {
+        "question": "How can you add a new property, 'graduationyear', to a Student object?",
+        "options": [
+            {"label": "A", "text": "Inside the __init__ method, using self.graduationyear = year"},
+            {"label": "B", "text": "By creating a new function called add_property()"},
+            {"label": "C", "text": "It must be defined in the parent Person class."}
+        ],
+        "correctAnswerIndex": 0
+    },
+    {
+        "question": "Which keyword is used to delete an object property, like the 'age' of p1?",
+        "options": [
+            {"label": "A", "text": "remove p1.age"},
+            {"label": "B", "text": "delete p1.age"},
+            {"label": "C", "text": "del p1.age"}
+        ],
+        "correctAnswerIndex": 2
+    }
+]
