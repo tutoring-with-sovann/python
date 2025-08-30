@@ -5,7 +5,7 @@
 # list ប្រជុំនៃ arrays ទាំងពិរគឺជាបណ្ដុំនៃ arrays ទាំងពិរដែលមិនមានចំនួនដដែលនៅក្នុងនោះ។ ប្រសិនជាមានធាតុដូចគ្នាដែលមាននៅក្នុង arrays ទាំងពីរ នោះវាគួរតែរាប់បញ្ចូលក្នុង arrays ថ្មីចំនួនមួយដងប៉ុណ្ណោះ។
 
 # Note: Elements of a[] and b[] are not necessarily distinct.
-# ចំណាំ: ធាតុទាំងអស់នៅក្នុង​ a[] និង b[] មិនប្រាកដថាមិនមានធាតុជាន់គ្នានោះទេ។ 
+# ចំណាំ: ធាតុទាំងអស់នៅក្នុង​ a[] និង b[] មិនប្រាកដថាមិនមានធាតុមិនជាន់គ្នានោះទេ។ 
 # Note that, You can return the Union in any order but the driver code will print the result in sorted order only.
 # ចំណាំ, អ្នកអាច return មកវិញនូវ array នៃធាតុប្រជុំនៅក្នុង array ដែលមិនបានរៀបរៀង(sorted), តែកូដ(code)ដែល print ចេញមកត្រូវតែតាមលំដាប់លំដោយ។ 
 
@@ -29,7 +29,8 @@
 # Guide:
 # - Create a function(union):
 #   - It returns the union array value of 2 input array
-#     - 1st parameter: first_array: for the a[]
+#     - 1st paramete
+# r: first_array: for the a[]
 #     - 2nd parameter: second_array: for the b[]
 # - Create another function(sort) that take 2 parameters:
 #   - It returns the sorted versions of the input array by the input direction
