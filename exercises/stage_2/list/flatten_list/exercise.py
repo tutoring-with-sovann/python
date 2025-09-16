@@ -8,6 +8,7 @@
 
 # Hint:
 # Using type() function, we'll be able to retrieve it's type.
+
 # Usage:
 # a_list = []
 # is_list = type(a_list) is list

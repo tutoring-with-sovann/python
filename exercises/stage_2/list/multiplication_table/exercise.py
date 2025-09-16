@@ -3,6 +3,8 @@
 
 # Write a code to generates a complete multiplication table for numbers 1 through 10.
 
+# if n is 0, print out "there’s no multiplication table to 0" and exit the program.
+
 # Given:
 # multiplication table of: 1
 #  1 2 3 4 5 6 7 8 9 10
