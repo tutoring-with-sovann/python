@@ -64,3 +64,8 @@ student1.study()  # Score goes from 80 to 85
 # Step 7: Print updated information
 letter = student1.get_letter_grade()  # Get new letter grade
 print(f"Student: {student1.name}, Grade: {student1.grade}, Score: {student1.score}, Letter Grade: {letter}")
+
+# Output:
+# Student: Alice Johnson, Grade: 10th, Score: 75, Letter Grade: C
+# After studying...
+# Student: Alice Johnson, Grade: 10th, Score: 85, Letter Grade: B
