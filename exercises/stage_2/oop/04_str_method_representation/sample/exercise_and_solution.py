@@ -55,3 +55,7 @@ product2 = Product("Mouse", 25.50, 20)
 # When we print the objects, Python automatically calls the __str__ method
 print(product1)  # This calls product1.__str__()
 print(product2)  # This calls product2.__str__()
+
+# With __str__ method:
+# Product: Laptop, Price: $999.99, Quantity: 5
+# Product: Mouse, Price: $25.5, Quantity: 20
