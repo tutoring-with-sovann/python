@@ -1,5 +1,5 @@
 # Exercise: Basic Class and Object Creation
-# Description: Create a simple Book class and instantiate multiple book objects
+# Description: Create a simple Book class and instantiate(create) multiple book objects
 #
 # Tasks:
 # 1. Create a Book class with the following properties:
