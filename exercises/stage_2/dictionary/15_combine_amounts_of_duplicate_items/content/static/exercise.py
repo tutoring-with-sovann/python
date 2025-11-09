@@ -41,6 +41,3 @@
 # - You will need to check if the product already exists in the result dictionary.
 # - If it does, check if the region key also exists — if not, create it.
 # - Then, add the sales amount to the existing total.
-#
-# Optional Challenge:
-# - After printing the result, find and print the region with the **highest total sales** across all products.

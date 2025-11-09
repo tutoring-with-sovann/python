@@ -34,11 +34,11 @@
 # Define a function 'remove_dictionary' that removes a dictionary with a specific 'id' from a list of dictionaries.
 def remove_dictionary(colors: list, target_id):
     # Loop over the colors array
-    for d in colors:
+    for color in colors:
       # This condition run when this dictionary's id is the same as the target_id
-      if d.get("id") == target_id:
+      if color.get("id") == target_id:
         # Remove this element from the list
-        colors.remove(d)
+        colors.remove(color)
         # Break the loop because we alredy found the delete target
         break
     # Return the array after the deletion
@@ -57,12 +57,12 @@ colors = [
 print("Original list of dictionary:")
 print(colors)
 
-# Define the 'r_id' variable with the value of the 'id' to be removed from the list.
-r_id = "#FF0000"
+# Define the 'target_id' variable with the value of the 'id' to be removed from the list.
+target_id = "#FF0000"
 
-# Print a message indicating the intention to remove the dictionary with 'r_id' from the list.
-print("\nRemove id", r_id, "from the said list of dictionary:")
+# Print a message indicating the intention to remove the dictionary with 'target_id' from the list.
+print("\nRemove id", target_id, "from the said list of dictionary:")
 
 # Call the 'remove_dictionary' function to remove the dictionary with the specified 'id'.
 # Print the resulting list of dictionaries after the removal.
-print(remove_dictionary(colors, r_id))
+print(remove_dictionary(colors, target_id))
