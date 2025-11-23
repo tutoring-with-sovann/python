@@ -11,7 +11,8 @@ Links to slides:
 - [Function](https://docs.google.com/presentation/d/14QZ96fSRhZaiWpECSenqLxZxnvRHt0co22C2FWQVa_k/edit?slide=id.gc6f73a04f_0_0#slide=id.gc6f73a04f_0_0)
 - [OOP - Part 1](https://docs.google.com/presentation/d/1tGyyTNa82UEzhyjhY-PcGoVUQ6W7q0EJlBYvmDTptDA/edit?slide=id.gc6f73a04f_0_0#slide=id.gc6f73a04f_0_0)
 - [OOP - Part 2](https://docs.google.com/presentation/d/1VR5Aw3DPe__njJY1wKwKcGmIt0oypiogoJD_jFeCwFo/edit?slide=id.gc6f73a04f_0_0#slide=id.gc6f73a04f_0_0)
-- [Git and Version Control]()
+- [Git and Version Control](https://docs.google.com/presentation/d/1nwUQyi0BoD9GT2oZ8rCnexbN62DvYxan-5T8ATyiv0A/edit)
+- TEST
 
 Exercises:
 - [Multiplication Table](https://docs.google.com/presentation/d/1uIjM7L-RgzJYV4tXOWyTAQPv4DTyfCheDgOQJ_YubPM/edit?slide=id.gc6f73a04f_0_9#slide=id.gc6f73a04f_0_9)
