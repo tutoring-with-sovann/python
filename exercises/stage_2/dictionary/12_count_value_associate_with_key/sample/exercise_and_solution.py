@@ -1,3 +1,7 @@
+# =============================== Problem ===============================
+# Sum values by key across a list of dicts. Booleans sum as True=1, False=0.
+
+# =============================== Solution ==============================
 # Create a list 'student' containing dictionaries, each representing a student with 'id', 'success', and 'name' information.
 student = [
     {"id": 1, "success": True, "name": "Lary"},

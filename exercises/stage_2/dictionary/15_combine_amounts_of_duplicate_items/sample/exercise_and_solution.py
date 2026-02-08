@@ -1,18 +1,7 @@
-# Exercise: Combine Amounts of Duplicate Items
+# =============================== Problem ===============================
+# Combine amounts of duplicate items in a list of dicts into a single dict.
 
-# Description:
-# You are given a list of dictionaries, where each dictionary represents an item and its amount.
-# Some items appear more than once in the list. Your task is to write a Python program that:
-#
-# Tasks:
-# 1. Loops through the list of dictionaries.
-# 2. Combines (adds together) the 'amount' values of items with the same item 'name'.
-# 3. Stores the combined results in a new dictionary, where:
-#    - the key is the item name,
-#    - the value is the total amount for that item.
-# 4. Prints the final result.
-
-
+# =============================== Solution ==============================
 # Array of items, each one of the dictionary in this array represent an item
 item_list = [
   {'name': 'Item 1', 'amount': 400}, 

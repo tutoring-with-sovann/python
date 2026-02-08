@@ -1,3 +1,7 @@
+# =============================== Problem ===============================
+# Extract all distinct values from a list of dicts using a set.
+
+# =============================== Solution ==============================
 # Create a list 'L' containing dictionaries with key-value pairs.
 LIST = [
     {"V": "S001"},
