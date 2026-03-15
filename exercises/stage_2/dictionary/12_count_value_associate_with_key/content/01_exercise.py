@@ -9,7 +9,8 @@
 # - 'on_time' (boolean)
 
 # Tasks:
-# 1. Print the total sum of all employee IDs.
+# 1. Print the tosovannen72
+# al sum of all employee IDs.
 # 2. Print the total number of completed tasks by all employees.
 # 3. Print how many employees completed their tasks on time.
 # 4. Print the average number of tasks completed per employee.

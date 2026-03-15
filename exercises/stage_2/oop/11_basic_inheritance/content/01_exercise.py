@@ -1,20 +1,25 @@
-# Exercise: Basic Inheritance
-# Description: Create a parent Animal class and a child Dog class that inherits from it
+# Exercise: Basic Inheritance with Method Overriding
+# Description: Create a parent Animal class and child classes (Dog, Cat) that inherit from it
 #
 # Tasks:
-# 1. Create an Animal class with __init__ constructor
-# 2. Animal constructor should accept: name, age
-# 3. Add a method make_sound() that prints "Some generic animal sound"
-# 4. Create a Dog class that inherits from Animal
-# 5. Dog should have the same constructor as Animal (no additional properties yet)
-# 6. Create both Animal and Dog objects to show inheritance
+# 1. Create an Animal class with __init__ constructor that accepts name and age
+# 2. Add a method make_sound() that prints "Some generic animal sound"
+# 3. Create a Dog class that inherits from Animal
+# 4. Dog should accept name, age, AND breed in its constructor (use super() to initialize parent)
+# 5. Override make_sound() in Dog to print "Woof!"
+# 6. Create a Cat class that inherits from Animal
+# 7. Cat should have its own make_sound() that prints "Meow!"
+# 8. Create instances of all three classes and call make_sound() on each
 #
 # Expected Output:
 # Generic animal named Buddy is 5 years old
 # Some generic animal sound
 # Dog named Max is 3 years old
-# Some generic animal sound
+# Breed: Golden Retriever
+# Woof!
+# Cat named Whiskers is 2 years old
+# Meow!
 #
-# Hint: Use class Dog(Animal): to make Dog inherit from Animal. Use pass if you don't need to add anything
+# Hint: Use super().__init__() in the child class constructor to call the parent's __init__
 
 # Write your code here:
